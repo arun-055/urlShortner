@@ -1,13 +1,9 @@
+/*  to crearte a router*/
+
 const express = require("express");
 const { handleGenerateNewShortUrl }= require("../controllers/url");
 const router = express.Router();
 
 router.post("/",handleGenerateNewShortUrl);
 module.exports = router;
-/* const express = require("express");
-const { handleGenerateNewShortUrl }= require("../controllers/url");
-const router = express.Router();
 
-router.post("/",handleGenerateNewShortUrl);
-module.exports = router;
- */
