@@ -1,4 +1,4 @@
-/*  to crearte a router*/
+/*  to create a router */
 
 const express = require("express");
 const { handleGenerateNewShortUrl }= require("../controllers/url");
